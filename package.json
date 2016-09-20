@@ -1,0 +1,48 @@
+{
+  "name": "Flamingo",
+  "version": "0.0.0",
+  "description": "A collection of lodash functions developed by Learners Guild learners",
+  "main": "dist/edmm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "./node_modules/.bin/babel src -d dist --copy-files",
+    "buildwatch": "babel src -w --out-dir dist --copy-files",
+    "prepublish": "npm run build",
+    "test": "jasmine JASMINE_CONFIG_PATH=dist/spec/support/jasmine.json",
+    "start": "nodemon dist/flamingo.js"
+  },
+  "keywords": [],
+  "contributors": [
+    {
+      "name": "Devon Wesley",
+      "email": "dwesley89@gmail.com"
+    },
+    {
+      "name": "Najee Williams",
+      "email": "thamaranth@gmail.com"
+    },
+    {
+      "name": "Bre McEwen",
+      "email": "debrenamcewen@gmail.com"
+    },
+    {
+      "name": "Maurice Caviness",
+      "email": "Compsight@aol.com"
+    },
+    {
+      "name": "Sal Soloman",
+      "email": "solomanasoloman@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "jasmine": "^2.4.1",
+    "lodash": "^4.14.0",
+    "nodemon": "^1.9.2"
+  },
+  "dependencies": {}
+}
