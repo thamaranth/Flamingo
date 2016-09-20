@@ -1,5 +1,5 @@
 {
-  "name": "edmm-js-utils",
+  "name": "Flamingo",
   "version": "0.0.0",
   "description": "A collection of lodash functions developed by Learners Guild learners",
   "main": "dist/edmm.js",
