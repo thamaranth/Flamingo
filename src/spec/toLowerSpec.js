@@ -5,6 +5,6 @@ const toLower = flamingo.toLower
 
   describe ( 'toLower', () => {
     it('Converts string, as space separated words, to lower case.', () => {
-      expect( toLower('TRUTH') ).toEqual('truth')
+      expect( toLower('truth') ).toEqual('truth')
     })
   })
