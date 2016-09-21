@@ -3,10 +3,18 @@ export default (str) => {
   let arr = str.split('')
 
   arr.map( x => {
-    let lower = String.fromCharCode( x.charCodeAt() + 32 )
-    newArr.push( lower )
+    let number = x.charCodeAt()
+
+    if ( (number > 64) && (number < 91) ) {
+      let lower = String.fromCharCode( number + 32 )
+      newArr.push( lower )
+    } else {
+      newArr.push( x )
+    }
   })
-    console.log (newArr.join(''))
+
+  console.log (newArr.join(''))
+
   return newArr.join('')
 
 
