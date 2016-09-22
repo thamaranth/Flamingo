@@ -2,7 +2,7 @@ import { default as flamingo } from '../flamingo'
 
 const isDate = flamingo.isdate
 
-describe( "isdate", ()=> {
+xdescribe( "isdate", ()=> {
   it('Checks if value is classified as a Date object.', () => {
     expect( isDate( 'Mon April 23 2012' ) ).toEqual( false )
   })
