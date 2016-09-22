@@ -1,6 +1,6 @@
 import { default as flamingo } from '../flamingo'
 
-const isDate = flamingo.isdate
+const isDate = flamingo.isDate
 
 describe( "isdate", ()=> {
   it('Checks if value is classified as a Date object.', () => {

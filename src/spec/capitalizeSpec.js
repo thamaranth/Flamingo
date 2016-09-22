@@ -1,4 +1,4 @@
-import { default as flamingo } from '../flamingo'
+import flamingo from '../flamingo'
 import _ from 'lodash'
 
 const capitalize = flamingo.capitalize
