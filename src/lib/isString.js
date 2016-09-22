@@ -1,7 +1,9 @@
 "use strict"
 
 export default (arg) => {
-  // let test = true
+  // the easy way
+  // return typeof arg === "string"
+  
   if (typeof arg === "string" ) {
     console.log('Its true');
 
