@@ -1,6 +1,6 @@
 {
   "name": "Flamingo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A collection of lodash functions developed by Learners Guild learners",
   "main": "dist/edmm.js",
   "files": [
