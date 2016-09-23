@@ -1,14 +1,20 @@
 "use strict"
 
 export default (args) => {
-  const arr = [...arguments]
+  const arr = [...args]
+  let total = 0
   let avg = 0
-  let x = 0
 
   arr.map((x,i) => {
-     x += arr[i]
-   }
+     total += arr[i]
+   })
 
-   avg = x/arr.length
-   return avg
+  // //ES6 for loop (alternate option vs. map)
+  // for(let num of arr){
+  //   total += num
+  // }
+
+  avg = total / arr.length
+  console.log("mean.js Test - Average of",arr,"is",avg)
+  return avg
  }
