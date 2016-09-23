@@ -8,8 +8,8 @@ describe( 'isBoolean', () => {
     expect( isBoolean(7 > 9) ).toEqual(true)
   })
 })
-//  describe( 'isBoolean', () => {
-  //  it('Checks if value is classified as a boolean primitive or object.', () => {
-    //  expect( isBoolean('words') ).toEqual(false)
-  //  })
-//})
+  describe( 'isBoolean', () => {
+    it('Checks if value is classified as a boolean primitive or object.', () => {
+      expect( isBoolean('words') ).toEqual(false)
+    })
+})

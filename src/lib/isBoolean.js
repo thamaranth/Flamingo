@@ -1,7 +1,5 @@
 export default (bool) => {
 
-  var test = true;
-  if (typeof test === 'boolean')
-  console.log ("hmmm",test)
-     return test
+  return typeof bool === 'boolean' ||
+            (typeof bool === 'object' && typeof bool.valueOf() === 'boolean')
 }
