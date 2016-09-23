@@ -1,5 +1,5 @@
 {
-  "name": "flamingo",
+  "name": "flamingo-learners",
   "version": "0.0.3",
   "description": "A collection of lodash functions developed by Learners Guild learners",
   "main": "dist/flamingo.js",
